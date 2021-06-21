@@ -1,11 +1,11 @@
 import "./styles.css";
 import Footer from "./components/Footer";
-import BigCard2 from "./components/BigCard2";
+import BigCard from "./components/BigCard";
 import Paragraph from "./components/Paragraph";
 import { LayerImage, LayerImage2, LayerImage3 } from "./components/LayerImage";
 import HeaderImage from "./components/HeaderImage";
 import CustomVideo from "./components/CustomVideo";
-import Nav from "./components/Nav4";
+import Nav from "./components/Nav";
 import StickyNav from "./components/StickyNav";
 
 import ResponsiveImage from "./components/ResponsiveImage";
@@ -32,7 +32,7 @@ export default function App() {
       <LayerImage />
       <Paragraph number="5" />
 
-      <BigCard2 />
+      <BigCard />
       <div style={{ height: "2px", background: "#eee" }}></div>
       <Footer />
     </div>
