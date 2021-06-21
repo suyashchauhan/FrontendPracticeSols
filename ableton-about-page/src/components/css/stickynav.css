@@ -1,0 +1,12 @@
+.hide {
+  /* top: -100%; */
+  animation: speed 2s linear 1;
+}
+@keyframes speed {
+  from {
+    top: 0%;
+  }
+  to {
+    top: -100%;
+  }
+}

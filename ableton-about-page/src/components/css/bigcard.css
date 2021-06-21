@@ -1,0 +1,42 @@
+.wrap {
+    display: inline-block;
+}
+
+.container {
+    margin: 4rem auto;
+    display: flex;
+    max-width: 85%;
+    background-color: #b1c5ff;
+}
+
+.half,
+.articlename {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.half {
+    width: 60%;
+    height: 100%;
+}
+
+.articlename {
+    width: 40%;
+    color: black;
+    text-align: left;
+}
+
+.articlename .textblock {
+    padding: 6rem;
+}
+
+@media only screen and (max-width: 936px) {
+    .half,
+    .articlename {
+        display: block;
+        width: 100%;
+    }
+    .articlename .textblock {
+        padding: 3rem;
+    }
+}
